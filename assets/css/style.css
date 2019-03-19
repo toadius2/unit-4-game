@@ -1,0 +1,69 @@
+#goalAmount {
+   width: 33%;
+   height: 200px;
+   color: darkred}
+
+body{
+    background-color: cadetblue;
+}
+
+div{
+    background-color: rgb(157, 165, 42);  
+	margin: 10px;
+	width: 25%
+}
+div{
+	border: solid 2px rgb(240, 215, 250);
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+ol{
+	list-style: decimal inside; 
+}
+
+div.header, div.gems{
+	background-color: #e0e9eb;
+}
+div.header, div.instructions{
+	width: 50%;
+}
+
+.goalAmount, .winsLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.playerTotal{
+	width: 15%;
+	height: 60px;
+}
+.crystals{
+	clear: both;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
+
+#one{
+	color: #3092c7;
+}
+#two{
+	color: #00aa59;
+}
+#three{
+	color: #ec4b5f;
+}
+#four{
+	color: #ffc225;
+}
+
+.playerTotal, .winsLosses, .goalAmount{
+    font-size: 24pt;
+} 
